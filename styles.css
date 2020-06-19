@@ -353,6 +353,7 @@ input:valid:not(:placeholder-shown) {border-color: green;}
   .check {width: 100%; margin: 10px 0 30px;}
   .check a {margin-left: 0;}
   button {order: 4;}
+  .alert-message {font-size: 22px; line-height: 26px;}
 }
 
 @media (max-width: 710px) {
@@ -388,4 +389,6 @@ input:valid:not(:placeholder-shown) {border-color: green;}
   .course p {margin-bottom: 10px;}
   .check {margin: 0 0 50px;}
   .check a {margin-left: 40px;}
+  .alert-popup {width: 80%; left: 10%;}
+  .alert-message {font-size: 18px;}
 }
