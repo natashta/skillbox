@@ -268,7 +268,7 @@ label.check {
   height: 24px;
   font-size: 18px;
   background:white; 
-  border: 1px solid grey;
+  border: 2px solid #E6E8F0;
   vertical-align: middle;
  }
 
@@ -283,7 +283,7 @@ label.check {
   content: "\2713";
   color: white;
   background:#3D3BFF; 
-  border: 1px solid #3D3BFF;
+  border: 2px solid #3D3BFF;
 }
   
  .checkbox:disabled + label::before {
