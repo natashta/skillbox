@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест Skillbox</title>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    --><meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <div>
+    <h2>Стоимость обучения</h2>
+    <div class="card">
+       
+        <div class="blue">
+            <div class="label">
+                <p>СКИДКА</p>
+                <p class="label__num">40%</p>
+                <p class="label__opasity">первым 20</p>
+            </div>
+    
+            <div class="cost">
+            <div class="cost__opasity">
+                <p class="cost__text">Полная стоимость курса</p>
+                <p class="cost__num">50 000 <span>Р</span></p>
+            </div>
+            <div class="cost__main">
+                <p class="cost__num">29 000 <span>Р</span></p>
+                <p class="main__text">Рассрочка без первого взноса</p>
+            </div>
+            <div class="cost__descr">
+                <p class="cost__num">29 000 <span>Р</span></p>
+                <p  class="descr__text">Для первых 20-ти</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="apply__wrap">
+        <div class="apply">
+            <h3>Запишитесь на&nbsp;курс</h3>
+            <ul>
+                <li><span>Телефон</span></li>
+                <li><span>Телефон</span></li>
+                <li><span>Телефон</span></li>
+                <li><span>Телефон</span></li>
+            </ul>
+            <div class="course">
+                <p>Старт курса: <span>7 сентября</span></p>
+                <p>Осталось: <span>19 мест</span></p>
+            </div>
+
+            <form method="post" action="index.html">
+                <label><input type="text" class="name" placeholder="Имя" required></label>
+                <label><input type="tel" class="phone" placeholder="Телефон" required ></label>
+                <label><input type="email" class="mail" placeholder="E-Mail" required></label>
+                <button type="submit" class="submit">Записаться</button>
+                <input type="checkbox" id="checkbox" class="checkbox visually-hidden" required checked>
+                <label for="checkbox" class="check"> Я согласен с условиями обработки <a href="#">персональных данных</a></label>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <h2>Стоимость обучения</h2>
+    <div class="card">
+       
+        <div class="blue">
+            <div class="label">
+                <p>СКИДКА</p>
+                <p class="label__num">40%</p>
+                <p class="label__opasity">первым 20</p>
+            </div>
+    
+            <div class="cost">
+            <div class="cost__opasity">
+                <p class="cost__text">Полная стоимость курса</p>
+                <p class="cost__num">50 000 <span>Р</span></p>
+            </div>
+            <div class="cost__main">
+                <p class="cost__num">29 000 <span>Р</span></p>
+                <p class="main__text">Рассрочка без первого взноса</p>
+            </div>
+            <div class="cost__descr">
+                <p class="cost__num">29 000 <span>Р</span></p>
+                <p class="descr__text">Для первых 20-ти</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="apply__wrap">
+        <div class="apply">
+            <h3>Запишитесь на&nbsp;курс</h3>
+    
+            <div class="course">
+                <p>Старт курса: <span>7 сентября</span></p>
+                <p>Осталось: <span>19 мест</span></p>
+            </div>
+
+            <form method="post" action="index.html">
+                <label><input type="text" class="name" placeholder="Имя" required></label>
+                <label><input type="tel" class="phone" placeholder="Телефон" required ></label>
+                <label><input type="email" class="mail" placeholder="E-Mail" required></label>
+                <button type="submit" class="submit">Записаться</button>
+                <input type="checkbox" id="checkbox2" class="checkbox visually-hidden" required checked>
+                <label for="checkbox2" class="check"> Я согласен с условиями обработки <a href="#">персональных данных</a></label>
+            </form>
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class="alert-popup popup-hide">
+    <p class="close">X</p>
+    <p class="alert-message"></p>
+</div>
+
+<script src="script.js"></script>  
+</body>
+</html>
